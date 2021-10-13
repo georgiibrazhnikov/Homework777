@@ -15,7 +15,7 @@ d = int(d)
 f = int(f)
 k = f-d
 if k == 0:
-    print('Делить на ноль нельзя!')  
+    print('Делить на ноль нельзя!')
 else:
     g = (a * b - c) / k
     print(g)
