@@ -1,5 +1,4 @@
-print('Введите строку >>')
-l = input()
+l = input('Введите строку >> ')
 a = []
 for i in l:
     if i.isdigit():
