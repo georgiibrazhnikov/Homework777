@@ -1,3 +1,2 @@
-print('Введите список >>')
-l = list(input())
+l = list(input('Введите строку>> '))
 print('\n'.join(l))
