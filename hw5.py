@@ -14,7 +14,7 @@ def binar(a, k):
     if b > e:
         return None
     else:
-        return s + 1
+        return s
 
 
 print('Введите список >> ')
@@ -23,6 +23,6 @@ a.sort(key=int)
 print(a)
 k = int(input('Введите искомый элемент >> '))
 print(binar(a, k))
-assert binar([1, 2, 3, 4, 5, 6, 7], 5) == 5
-assert binar([7, 22, 34, 41, 75, 69, 77], 7) == 1
+assert binar([1, 2, 3, 4, 5, 6, 7], 5) == 4
+assert binar([7, 22, 34, 41, 75, 69, 77], 7) == 0
 assert binar([5, 2345, 33245, 42, 55, 634, 77], 1) == None
