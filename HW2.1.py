@@ -13,6 +13,13 @@ class Fraction:
     def __str__(self) -> str:
         return f"{self.ch}/{self.zn}"
 
-
+    def reduse(self) -> str:
+        z = fun(self.nom, self.denom)
+        return "f{(self.nom / z)} / {(self.denom / z)}"
+    
+    
 a1 = Fraction()
 print(a1)
+s.vvod()
+s.__str__()
+s.reduse()
