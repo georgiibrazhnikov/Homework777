@@ -36,6 +36,6 @@ print(a1)
 
 
 f1 = IrreduceableFraction(4, 2)
-b1 = IrreduceableFraction(10, 5)
+b1 = IrreduceableFraction(2, 1)
 
 asert f1 == b1
