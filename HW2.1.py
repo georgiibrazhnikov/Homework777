@@ -25,7 +25,9 @@ class Fraction:
    
 class IrreduceableFraction(Fraction):
     def __init__(self, *args, *kwargs):
-        funk().__init__(*args, *kwargs)
+        super().__init__(*args, *kwargs)
+     def vvod(self, *args, *kwargs)
+        super().vvod(*args, *kwargs)
         self.reduse()
 
         
