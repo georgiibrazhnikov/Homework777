@@ -20,7 +20,7 @@ class Fraction:
             return
         z = gcd(self.nom, self.denom)
         self.nom = self.nom // z
-        self.denom = swlf.denom // z
+        self.denom = self.denom // z
        
    
 class IrreduceableFraction(Fraction):
@@ -34,6 +34,6 @@ print(a1)
 
 
 f1 = IrreduceableFraction(4, 2)
-b1 = IrreduceableFraction(0, 2)
+b1 = IrreduceableFraction(10, 5)
 
-asert s == a
+asert f1 == b1
